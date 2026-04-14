@@ -1,0 +1,20 @@
+# Binários e arquivos executáveis
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependências e ferramentas de build
+vendor/
+go.work
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporários da Engine/Logs
+*.log
